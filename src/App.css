@@ -229,7 +229,6 @@
   display: grid;
   width: calc(100% - 25px);
   grid-area: auto;
-  max-width: 1416px;
   height: fit-content;
   overflow-x: hidden;
   gap: 12px;
