@@ -10,12 +10,11 @@
   font-size: 13px;
   position: relative;
   overflow-x: hidden;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
+  font-family: "SF pro", "Helvetica", "Arial", sans-serif;
 }
 .navwrapper {
   width: 100%;
-  display: flex;
+  max-width: 980px;
   justify-content: center;
 }
 
@@ -57,8 +56,8 @@
 
 .navlist {
   display: flex;
-  max-width: 980px;
-  width: 100%;
+  width: auto;
+  width: auto;
   align-items: center;
   margin: 0 auto;
   cursor: pointer;
@@ -73,7 +72,7 @@
   font-size: 12px;
   color: #dfdfdf;
   visibility: visible;
-  font-weight: 100;
+  font-weight: lighter;
   list-style: none;
 }
 
@@ -117,11 +116,11 @@
 
 .textSection {
   align-self: center;
-  width: 1102px;
+  width: 100%;
   text-align: center;
   position: relative;
   z-index: 4;
-  margin-left: 338px;
+  left: 215px;
 }
 
 .header {
